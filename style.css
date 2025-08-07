@@ -75,6 +75,10 @@ button:hover {
   background-color: darkorange;
 }
 
+#clearBtn{
+    background-color: rgb(225, 62, 62);
+}
+
 .card-parent {
   width: 100%;
   display: flex;
@@ -178,6 +182,8 @@ form button {
     background-color: white;
   border: 1px solid orange;
 }
+
+
 
 @media (max-width: 480px) {
   .site-box {
