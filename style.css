@@ -157,11 +157,9 @@ form button {
 }
 
 
-.site-header {
+.site-body {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
 }
 
 .copy-btn {
@@ -171,6 +169,8 @@ form button {
   color: #1a73e8;
   transition: color 0.3s;
   transition: .5s;
+    border: 1px solid white;
+
 
 }
 

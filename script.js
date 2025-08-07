@@ -45,10 +45,18 @@ function generateLinks(data) {
             <div class="site-box">
                 <div class="site-header">
                     <strong>${site}</strong>
+                    </div>
+
+                    <div class="site-body">
+                    <div> <a href="${trafficURL}" target="_blank">🔗 Traffic</a>
+                    <a href="${backlinkURL}" target="_blank">🔗 Backlink</a> </div>
+
+                    <div>
                     <button class="copy-btn" data-domain="${site}" title="Copy domain">📋</button>
-                </div>
-                <a href="${trafficURL}" target="_blank">🔗 Traffic</a>
-                <a href="${backlinkURL}" target="_blank">🔗 Backlink</a>
+                    
+                    </div>
+                    </div>
+                    
             </div>
         `;
     });
